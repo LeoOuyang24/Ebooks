@@ -14,7 +14,9 @@ jobs:
       with:
         node-version: '14.x'
     - run: echo asdf
-    - run: npm install https://github.com/LeoOuyang24/free-programming-books-lint --production
+    - run: npm install https://github.com/LeoOuyang24/free-programming-books-lint
+    - run: rm -rf node_modules
+    - run: npm install --production
     - run: npm shrinkwrap
     - run: npm ls
     - run: fpb-lint ./books/
