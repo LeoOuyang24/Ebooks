@@ -14,7 +14,7 @@ jobs:
       with:
         node-version: '14.x'
     - run: echo asdf
-    - run: git clone https://github.com/Senior-Design-2021-Ebook-Team/markdown-parser
+    - run: npm install -g https://github.com/Senior-Design-2021-Ebook-Team/markdown-parser
     - run: ls
     - run: cd ./markdown-parser
     - run: ls
