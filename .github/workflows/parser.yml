@@ -16,3 +16,4 @@ jobs:
     - run: echo asdf
     - run: npm install -g https://github.com/Senior-Design-2021-Ebook-Team/markdown-parser
     - run: fpb-parse
+    - run: node index.js
