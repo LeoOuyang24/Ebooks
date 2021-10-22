@@ -16,6 +16,7 @@ jobs:
     - run: echo asdf
     - run: git clone https://github.com/Senior-Design-2021-Ebook-Team/markdown-parser
     - run: ls
-    - run: cd markdown-parser
+    - run: cd ./markdown-parser
+    - run: cd ASDF
     - run: ls
     - run: npm start
