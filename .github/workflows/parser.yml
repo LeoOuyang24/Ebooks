@@ -14,5 +14,5 @@ jobs:
       with:
         node-version: '14.x'
     - run: echo asdf
-    - run: npm install https://github.com/Senior-Design-2021-Ebook-Team/asdf
+    - run: npm install https://github.com/Senior-Design-2021-Ebook-Team/markdown-parser
     - run: npm start
