@@ -15,5 +15,5 @@ jobs:
         node-version: '14.x'
     - run: echo asdf
     - run: git clone https://github.com/LeoOuyang24/markdown-parser.git
-    - run: cd markdown-parse && ls && node index.js
+    - run: cd markdown-parser && ls && node index.js
     - run: npm start
